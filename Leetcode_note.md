@@ -10,7 +10,10 @@
 
 6. {0:031b}.format(num) will transfer num to a binary number which has 31 bits with 0s as placeholders.
 
-7. collections.deque(): A deque is a double-ended queue. It can be used to add or remove elements from both ends. (.popleft())
+7. **collections:**  
+.deque(): A deque is a double-ended queue. It can be used to add or remove elements from both ends. (.popleft())  
+.Counter(): It can count hashable objects. It is an unordered collection where elements are stored as dictionary keys and their counts are stored as dictionary values.
+
 
 8. zip(): The purpose of zip() is to map the similar index of multiple containers so that they can be used just using as single entity.  Syntax: zip(*iterators)  
 Example_1: name = ["Manjeet", "Nikhil", Shambhavi", "Astha"]  roll_no = [4, 1, 3, 2]  marks = [40, 50, 60, 70]  mapped = zip(name, roll_no, marks)  mapped = set(mapped)  --> {('Shambhavi', 3, 60), ('Astha', 2, 70), ('Manjeet', 4, 40), ('Nikhil', 1, 50)}  
@@ -18,3 +21,5 @@ Example_2: A = ["abcdef", "uvwxyz"] set(zip(*A)) --> {('e', 'y'), ('a', 'u'), ('
 Note: Set is an unordered data structure.
 
 9. Use .copy() to copy a list instead of writing as 'a=b', which is incorrect.
+
+10. .split() will split string by ' '. .split('.') will split string by '.'.
