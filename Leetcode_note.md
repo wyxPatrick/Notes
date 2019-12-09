@@ -16,3 +16,5 @@
 Example_1: name = ["Manjeet", "Nikhil", Shambhavi", "Astha"]  roll_no = [4, 1, 3, 2]  marks = [40, 50, 60, 70]  mapped = zip(name, roll_no, marks)  mapped = set(mapped)  --> {('Shambhavi', 3, 60), ('Astha', 2, 70), ('Manjeet', 4, 40), ('Nikhil', 1, 50)}  
 Example_2: A = ["abcdef", "uvwxyz"] set(zip(*A)) --> {('e', 'y'), ('a', 'u'), ('f', 'z'), ('b', 'v'), ('c', 'w'), ('d', 'x')}  
 Note: Set is an unordered data structure.
+
+9. Use .copy() to copy a list instead of writing as 'a=b', which is incorrect.
