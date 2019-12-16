@@ -8,7 +8,8 @@
 
 5. a[::2] to extract the elements of list 'a' that have even indexes. a[::-1] to make a copy of list 'a' in reverse order.
 
-6. {0:031b}.format(num) will transfer num to a binary number which has 31 bits with 0s as placeholders.
+6. {0:031b}.format(num) will transfer num to a binary number which has 31 bits with 0s as placeholders.  
+Use dec('10101', 2) to convert a binary to decimal.
 
 7. **collections:**  
 .deque(): A deque is a double-ended queue. It can be used to add or remove elements from both ends. (.popleft())  
