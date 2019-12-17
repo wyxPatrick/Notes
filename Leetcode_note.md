@@ -21,6 +21,6 @@ Example_1: name = ["Manjeet", "Nikhil", Shambhavi", "Astha"]  roll_no = [4, 1, 3
 Example_2: A = ["abcdef", "uvwxyz"] set(zip(*A)) --> {('e', 'y'), ('a', 'u'), ('f', 'z'), ('b', 'v'), ('c', 'w'), ('d', 'x')}  
 Note: Set is an unordered data structure.
 
-9. Use .copy() to copy a list instead of writing as 'a=b', which is incorrect.
+9. Use .copy() to copy a list instead of writing as 'a=b', which is incorrect. Use .extend() to extend a list (similar to '+'). e.g.: a = [], a.extend([2] * 3) --> [2,2,2]
 
 10. .split() will split string by ' '. .split('.') will split string by '.'.
