@@ -32,3 +32,4 @@ string.replace(old, new, count)
 1) list.sort() or sorted():
 Python lists have a built-in list.sort() method that modifies the list in-place. There is also a sorted() built-in function that builds a new sorted list from an iterable.
 Both list.sort() and sorted() have a key parameter to specify a function to be called on each list element prior to making comparisons. The value of the 'key' parameter should be a function that takes a single argument and returns a key to use for sorting purposes. This technique is fast because the key function is called exactly once for each input record.
+'key' is just the function name without any parameter. It should only take in one parameter. Assuming to sort and array, the parameter for 'key' function should be each element of the array.
