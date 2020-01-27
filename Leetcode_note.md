@@ -23,4 +23,12 @@ Note: Set is an unordered data structure.
 
 9. Use .copy() to copy a list instead of writing as 'a=b', which is incorrect. Use .extend() to extend a list (similar to '+'). e.g.: a = [], a.extend([2] * 3) --> [2,2,2]
 
-10. .split() will split string by ' '. .split('.') will split string by '.'.
+10. **String** 
+1) .split() will split string by ' '. .split('.') will split string by '.'.
+2) replace(): replace() is an inbuilt function in Python programming language that returns a copy of the string where all occurrences of a substring is replaced with another substring.  
+string.replace(old, new, count)
+
+11. **Array**
+1) list.sort() or sorted():
+Python lists have a built-in list.sort() method that modifies the list in-place. There is also a sorted() built-in function that builds a new sorted list from an iterable.
+Both list.sort() and sorted() have a key parameter to specify a function to be called on each list element prior to making comparisons. The value of the 'key' parameter should be a function that takes a single argument and returns a key to use for sorting purposes. This technique is fast because the key function is called exactly once for each input record.
